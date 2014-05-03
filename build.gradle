@@ -1,5 +1,8 @@
 apply plugin: 'eclipse'
 apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'jetty'
+
 //eclipse configuration
 eclipse.project {
 	natures 'org.springsource.ide.eclipse.gradle.core.nature'
