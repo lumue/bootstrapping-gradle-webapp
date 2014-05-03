@@ -1,0 +1,7 @@
+apply plugin: 'eclipse'
+
+//eclipse configuration
+eclipse.project {
+	natures 'org.springsource.ide.eclipse.gradle.core.nature'
+}
+
